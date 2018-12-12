@@ -1,62 +1,25 @@
 {
-  "_args": [
-    [
-      "pouchdb-adapter-node-win-sqlcipher-core@0.0.1",
-      "C:\\Users\\Crestview\\sidenotes\\pending\\core-sql"
-    ]
-  ],
-  "_from": "pouchdb-adapter-node-win-sqlcipher-core@0.0.1",
-  "_id": "pouchdb-adapter-node-win-sqlcipher-core@0.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-NyMaH0bl20SdJdOCzd+fwXo8JZ15a48/MAwMcIbXzsRHE4DjFNlRcWAcjUP6uN4Ezc+Gx+r2tkBBMf71mIz1Aw==",
-  "_location": "/pouchdb-adapter-node-win-sqlcipher-core",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "pouchdb-adapter-node-win-sqlcipher-core@0.0.1",
-    "name": "pouchdb-adapter-node-win-sqlcipher-core",
-    "escapedName": "pouchdb-adapter-node-win-sqlcipher-core",
-    "rawSpec": "0.0.1",
-    "saveSpec": null,
-    "fetchSpec": "0.0.1"
-  },
-  "_requiredBy": [
-    "/pouchdb-adapter-node-win-sqlcipher"
-  ],
-  "_resolved": "https://registry.npmjs.org/pouchdb-adapter-node-win-sqlcipher-core/-/pouchdb-adapter-node-win-sqlcipher-core-0.0.1.tgz",
-  "_spec": "0.0.1",
-  "author": {
-    "name": "Viet Tran",
-    "email": "vtran52@dxc.com"
-  },
-  "bugs": {
-    "url": "https://github.com/pouchdb/pouchdb/issues"
-  },
-  "dependencies": {
-    "pouchdb-adapter-utils": "7.0.0",
-    "pouchdb-binary-utils": "7.0.0",
-    "pouchdb-collections": "7.0.0",
-    "pouchdb-errors": "7.0.0",
-    "pouchdb-json": "7.0.0",
-    "pouchdb-merge": "7.0.0",
-    "pouchdb-utils": "7.0.0"
-  },
-  "description": "Underlying adapter code for win-sqlcipher and SQLite-based PouchDB adapters.",
+  "name": "pouchdb-adapter-node-win-sqlcipher",
+  "version": "0.0.1",
+  "description": "PouchDB adapter using win-sqlcipher as its data store.",
+  "main": "./lib/index.js",
+  "keywords": [],
+  "author": "Viet Tran <vtran52@dxc.com>",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/ngocviet/pouchdb-adapter-node-win-sqlcipher",
+  "jsnext:main": "./lib/index.es.js",
   "files": [
     "lib",
     "dist"
   ],
-  "homepage": "https://github.com/pouchdb/pouchdb#readme",
-  "jsnext:main": "./lib/index.es.js",
-  "keywords": [],
-  "license": "Apache-2.0",
-  "main": "./lib/index.js",
   "module": "./lib/index.es.js",
-  "name": "pouchdb-adapter-node-sql-core",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liederivative/pouchdb-adapter-node-win-sqlcipher-core.git"
-  },
-  "version": "0.0.1"
+  "dependencies": {
+    "pouchdb-adapter-utils": "6.4.3",
+    "pouchdb-binary-utils": "6.4.3",
+    "pouchdb-collections": "6.4.3",
+    "pouchdb-errors": "6.4.3",
+    "pouchdb-json": "6.4.3",
+    "pouchdb-merge": "6.4.3",
+    "pouchdb-utils": "6.4.3"
+  }
 }
